@@ -1,0 +1,24 @@
+.tasks{
+    position : relative;    
+}
+
+.tasks-container {
+    display: flex;
+    padding-top: 2rem;
+}
+
+.container-heading {
+    color: rgb(6, 179, 83);
+    text-transform: uppercase;
+    margin-left: 1rem;
+}
+
+.container-icon {
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: 1rem;
+    border: none;
+    background-color: rgb(6, 179, 83);
+    font-size: 2rem;
+    border-radius: 50%;
+}
