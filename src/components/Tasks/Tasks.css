@@ -1,0 +1,19 @@
+/* .tasks {
+    width: 30rem;
+    min-height: 20rem;
+    margin: 4rem auto;
+    background-color: white;
+    border-radius: 2%;
+} */
+
+.tasks{
+    box-shadow: 0 0 10px 5px var(--box-shadow);
+    width: 70%;
+    min-height: 20rem;
+}
+
+.tasks-add{
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 2rem;
+}

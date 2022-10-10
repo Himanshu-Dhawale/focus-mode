@@ -1,0 +1,30 @@
+.task-single {
+    box-shadow: 0 0 10px 5px var(--box-shadow);
+  }
+  .task-actions {
+    margin-left: auto;
+  }
+  .task-name {
+    text-decoration: none;
+    cursor: pointer;
+    width: 50%;
+  }
+  .fa-edit,
+  .fa-trash {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 700px) {
+   .fa-edit, .fa-trash, .task-name{
+      font-size: 1.4rem;
+   }
+  
+  
+   @media only screen and (max-width: 400px) {
+   .fa-edit, .fa-trash, .task-name{
+    margin-left: 5px;
+    font-size: 1rem;
+   }
+   }
+   
+  }
